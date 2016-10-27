@@ -1,12 +1,12 @@
 -------------------------------------------------------------------------------
 Test set: com.apple.test.apple.TestSuite
 -------------------------------------------------------------------------------
-Tests run: 6, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 3.097 sec <<< FAILURE! - in com.apple.test.apple.TestSuite
-testStringManipulation3 on testStringManipulation3(com.apple.test.apple.StringManipulationTest)(com.apple.test.apple.StringManipulationTest)  Time elapsed: 0.011 sec  <<< FAILURE!
+Tests run: 6, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 3.605 sec <<< FAILURE! - in com.apple.test.apple.TestSuite
+testStringManipulation3 on testStringManipulation3(com.apple.test.apple.StringManipulationTest)(com.apple.test.apple.StringManipulationTest)  Time elapsed: 0.017 sec  <<< FAILURE!
 org.junit.ComparisonFailure: String does not match expected:<Java[ is a programming ]language> but was:<Java[xisxaxprogrammingx]language>
 	at com.apple.test.apple.StringManipulationTest.testStringManipulation3(StringManipulationTest.java:37)
 
-testTerm on testTerm(com.apple.test.apple.ApiTest)(com.apple.test.apple.ApiTest)  Time elapsed: 1.507 sec  <<< FAILURE!
+testTerm on testTerm(com.apple.test.apple.ApiTest)(com.apple.test.apple.ApiTest)  Time elapsed: 2.035 sec  <<< FAILURE!
 java.lang.AssertionError: All results are not matched expected:<true> but was:<false>
-	at com.apple.test.apple.ApiTest.testTerm(ApiTest.java:34)
+	at com.apple.test.apple.ApiTest.testTerm(ApiTest.java:35)
 

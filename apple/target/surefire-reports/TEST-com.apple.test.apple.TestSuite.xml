@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.apple.test.apple.TestSuite" time="3.097" tests="6" errors="0" skipped="0" failures="2">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.apple.test.apple.TestSuite" time="3.605" tests="6" errors="0" skipped="0" failures="2">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_66\jre\bin"/>
@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.os.patch.level" value="Service Pack 1"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="C:\workspace\flexton\apple"/>
+    <property name="user.dir" value="C:\Users\test\AppleTest\apple"/>
     <property name="java.runtime.version" value="1.8.0_66-b18"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
     <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_66\jre\lib\endorsed"/>
@@ -25,7 +25,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="user.variant" value=""/>
     <property name="os.name" value="Windows 7"/>
-    <property name="classworlds.conf" value="C:\workspace\flexton\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf3766357955706355573.tmp"/>
+    <property name="classworlds.conf" value="C:\workspace\flexton\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf6877776114831860681.tmp"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
     <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_66\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\ProgramData\Oracle\Java\javapath;C:\tools\oracle\product\11.2.0\dbhome_1\bin;C:\Program Files\Common Files\Microsoft Shared\Windows Live;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files (x86)\Common Files\Roxio Shared\DLLShared\;C:\Program Files (x86)\Common Files\Roxio Shared\DLLShared\;C:\Program Files (x86)\Common Files\Roxio Shared\12.0\DLLShared\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Tools\apache-ant-1.9.4\bin;C:\Program Files (x86)\IVI Foundation\VISA\WinNT\Bin;C:\Program Files\Java\jdk1.8.0_66\bin;C:\Tools\apache-maven-3.3.9\bin;C:\Program Files (x86)\QuickTime\QTSystem\;."/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
@@ -51,7 +51,7 @@
     <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_66\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
     <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_66\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_66\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_66\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_66\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_66\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_66\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_66\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_66\jre\classes"/>
     <property name="java.vendor" value="Oracle Corporation"/>
-    <property name="maven.home" value="C:\workspace\flexton\apple\EMBEDDED"/>
+    <property name="maven.home" value="C:\Users\test\AppleTest\apple\EMBEDDED"/>
     <property name="file.separator" value="\"/>
     <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
     <property name="maven.bootclasspath" value="/C:/Tools/eclipse/configuration/org.eclipse.osgi/bundles/535/1/.cp/jars/plexus-classworlds-2.4.jar"/>
@@ -60,20 +60,18 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="testStringManipulation1 on testStringManipulation1(com.apple.test.apple.StringManipulationTest)" classname="com.apple.test.apple.StringManipulationTest" time="0.007"/>
-  <testcase name="testStringManipulation3 on testStringManipulation3(com.apple.test.apple.StringManipulationTest)" classname="com.apple.test.apple.StringManipulationTest" time="0.011">
+  <testcase name="testStringManipulation1 on testStringManipulation1(com.apple.test.apple.StringManipulationTest)" classname="com.apple.test.apple.StringManipulationTest" time="0.005"/>
+  <testcase name="testStringManipulation3 on testStringManipulation3(com.apple.test.apple.StringManipulationTest)" classname="com.apple.test.apple.StringManipulationTest" time="0.017">
     <failure message="String does not match expected:&lt;Java[ is a programming ]language&gt; but was:&lt;Java[xisxaxprogrammingx]language&gt;" type="org.junit.ComparisonFailure"><![CDATA[org.junit.ComparisonFailure: String does not match expected:<Java[ is a programming ]language> but was:<Java[xisxaxprogrammingx]language>
 	at com.apple.test.apple.StringManipulationTest.testStringManipulation3(StringManipulationTest.java:37)
 ]]></failure>
   </testcase>
   <testcase name="testStringManipulation2 on testStringManipulation2(com.apple.test.apple.StringManipulationTest)" classname="com.apple.test.apple.StringManipulationTest" time="0"/>
-  <testcase name="testTerm on testTerm(com.apple.test.apple.ApiTest)" classname="com.apple.test.apple.ApiTest" time="1.507">
+  <testcase name="testTerm on testTerm(com.apple.test.apple.ApiTest)" classname="com.apple.test.apple.ApiTest" time="2.035">
     <failure message="All results are not matched expected:&lt;true&gt; but was:&lt;false&gt;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: All results are not matched expected:<true> but was:<false>
-	at com.apple.test.apple.ApiTest.testTerm(ApiTest.java:34)
+	at com.apple.test.apple.ApiTest.testTerm(ApiTest.java:35)
 ]]></failure>
-    <system-out><![CDATA[Result Count Value in JSON :50
-]]></system-out>
   </testcase>
-  <testcase name="testMissingTerm on testMissingTerm(com.apple.test.apple.ApiTest)" classname="com.apple.test.apple.ApiTest" time="0.381"/>
-  <testcase name="testAllFourParameters on testAllFourParameters(com.apple.test.apple.ApiTest)" classname="com.apple.test.apple.ApiTest" time="0.397"/>
+  <testcase name="testMissingTerm on testMissingTerm(com.apple.test.apple.ApiTest)" classname="com.apple.test.apple.ApiTest" time="0.257"/>
+  <testcase name="testAllFourParameters on testAllFourParameters(com.apple.test.apple.ApiTest)" classname="com.apple.test.apple.ApiTest" time="0.33"/>
 </testsuite>

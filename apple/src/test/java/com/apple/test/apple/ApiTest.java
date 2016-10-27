@@ -12,8 +12,8 @@ import com.apple.test.util.TestUtil;
 public class ApiTest {
 	
 	private static Properties prop = null;
-	private String apiPropertyPath = "C://workspace//flexton//apple//api.properties";
-
+	private String apiPropertyPath = "./api.properties";
+	//C://Users//test//AppleTest//apple//api.properties
 	public ApiTest(){
 		
 		prop = TestUtil.loadProperties(apiPropertyPath);
@@ -60,7 +60,7 @@ public class ApiTest {
 
 	}
 
-	// Test if all parameter key and value pairs match
+	// Test if all parameter key and value pairs match 
 	// Expected : Test Passed
 	@Test
 	public void testAllFourParameters() throws Exception{
